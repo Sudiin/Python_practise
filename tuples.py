@@ -7,3 +7,10 @@ print(tup[2])
 
 #slicing
 
+print (tup[1:3]) 
+print (tup[:2])
+
+print(tup.index(1))
+print(tup.count(1))
+
+
