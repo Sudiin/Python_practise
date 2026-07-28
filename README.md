@@ -6,7 +6,7 @@ and learning git properly
 
 already learnt upto list and its method
 
-Completed List on 5/12/2026 <br>
-Completed Tuples on 5/13/2026 <br>
-Completed Dictionary on 5/14/2026 <br>
+Completed List <br>
+Completed Tuples <br>
+Completed Dictionary <br>
 

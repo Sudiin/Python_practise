@@ -1,44 +1,30 @@
-# info = {
-#     "key": "value",
-#     "name": "Sudin Shrestha",
-#     "age": 20,
-#     "is_adult": True,
-#     "subjects": ["Math", "Science", "Social"],
-#     "topics": ("Dictionaries", "lists"),
-# }
-
-# print(info)
-# print(info["name"])
-# info["name"] = "Sudiin"
-# info["Surname"] = "Shrestha"
-# print(info["name"]) 
-
-# null_dict = {}
-# null_dict["name"] = "Sudin"
-
-
-
-student = {
-    "name" : "Simrika",
-    "subject" : {
-        "Math" : 90,
-        "Science" : 80,
-        "Social" : 85
-    }
+info = {
+    "key": "value",
+    "name": "Sudin",
+    "learning": "Python",
+    "topics" : ["Python", "Django", "Flask"],
+    "age"  : 20,
+    12.99: 94.4
 }
 
-print(student["subject"])
-print(student["subject"]["Math"])
+null_dict = {}
 
-pairs = list(student.keys())
-print(pairs[0])
-print(list(student["subject"].keys()))
-print((student.values()))
-print(student.items())
+print(null_dict)
+print(type(info))
+print(info["name"])
+print(info["topics"])
 
-print(student.get("name"))
-print(student["name"])
-student.update({"city": "Kathmandu"})
+info["name"] = "Sudin Shrestha"
+print(info["name"])
 
-new_dict = {"Country":"Nepal", "Language" : "Nepali"}
-student.update(new_dict)
+null_dict["name"] = "Sudin"
+
+student = {
+    "name": "Sudin",
+    "Subjects" : {
+        "CN" : 90,
+        "OS" :80,
+        }
+}
+
+print(student.keys())
