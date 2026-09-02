@@ -15,13 +15,49 @@
 
 
 
-f = open("demo.txt","r+")
+# f = open("demo.txt","r+")
 
 
-f.write("abc")
+# f.write("abc")
 
-data = f.read()
+# data = f.read()
 
-print(data)
+# print(data)
 
-f.close
+# f.close
+
+# with open("demo.txt", "r") as f:
+#     data = f.read()
+#     print(data)
+
+# with open("demo.txt", "w") as f:
+#     f.write("new data")
+#     print(data)
+
+
+# deleting a  file
+
+# import os
+# os.remove("demo.txt")
+
+# with open("demo.txt", "w") as f:
+#     f.write("Hi everyone\n")
+#     f.write("we are learning File I/O\n")
+#     f.write("using python\n")
+
+
+# with open("demo.txt", "r+") as f:
+#     data = f.read()
+
+# new = data.replace ("python", "Java")
+# print(new)
+
+# with open("demo.txt", "w") as f:
+#     f.write(new)
+
+with open("demo.txt", "r") as f:
+    data = f.read()
+    if(data.find("learning") != -1):
+        print("Found")
+    else:
+        print("not found")
